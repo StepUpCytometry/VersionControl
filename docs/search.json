@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Version Control",
+    "section": "",
+    "text": "This is here primarily so that I can test WebR’s functionalities when it comes to delivering a new way to teach CytometryInR.\nTo get WebR ready for our purposes…\nNavigate to terminal run following\n#| eval: FALSE\nquarto add coatless/quarto-webr\nDo you trust author, yes Embedded webr cells, yes View documentation, no\nNext, change yaml header at top of document to include a filters: webr\nAnd then change the extension on the code block.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  }
+]

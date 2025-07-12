@@ -1,0 +1,27 @@
+---
+filters:
+  - webr
+---
+
+This is here primarily so that I can test WebR's functionalities when it comes to delivering a new way to teach CytometryInR. 
+
+To get WebR ready for our purposes...
+
+Navigate to terminal run following
+
+```{bash}
+#| eval: FALSE
+quarto add coatless/quarto-webr
+```
+
+Do you trust author, yes
+Embedded webr cells, yes
+View documentation, no
+
+Next, change yaml header at top of document to include a filters: webr
+
+And then change the extension on the code block. 
+
+```{webr-r}
+A <- 2 + 2
+```
