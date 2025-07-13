@@ -1,18 +1,44 @@
 project:
   type: website
-  output-dir: docs/
+  output-dir: docs
 website:
-  title: "Version Control"
+  google-analytics: "G-JMLSN1NXWD"
+  title: "Cytometry In R"
   navbar:
     left:
-      - href: index.qmd
+      - text: Version Control
+        href: index.qmd
+    right:
+    - icon: github
+      href: https://github.com/StepUpCytometry/
+      aria-label: GitHub
+  sidebar:
+      style: floating
+      search: true
+      contents:
+        - section: "Getting Started"
+          contents:
+          -  text: "Introduction"
+             href: https://stepupcytometry.github.io/Introduction/
+          -  text: "Set Up"
+             href: https://stepupcytometry.github.io/SetUp/
+          -  text: "Infrastructure"
+             href: https://stepupcytometry.github.io/Infrastructure/
+          -  text: "Data Wrangling"
+             href: https://stepupcytometry.github.io/DataWrangling/
+          -  text: "Plotting"
+             href: https://stepupcytometry.github.io/Plotting/
+          -  text: "Functions"
+             href: https://stepupcytometry.github.io/Functions/
+          -  text: "Packages"
+             href: https://stepupcytometry.github.io/Packages/
+          -  text: "Version Control"
+             href: https://stepupcytometry.github.io/VersionControl/
+  page-footer: 
+   left: Made with [Quarto](https://quarto.org/)
+   right: |
+    ![AGPL-3.0](/images/AGPL3.png)
+    ![CC-BY-SA](/images/CCBYSA.png)
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
-
-
+    css: styles.scss
