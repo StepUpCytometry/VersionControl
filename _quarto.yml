@@ -5,6 +5,7 @@ website:
   google-analytics: "G-JMLSN1NXWD"
   title: "Cytometry In R"
   navbar:
+    background: white
     left:
       - text: Version Control
         href: index.qmd
